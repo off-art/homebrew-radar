@@ -5,23 +5,23 @@ class Radar < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/off-art/radar/releases/download/v0.6.11/radar-aarch64-apple-darwin.tar.gz"
-      sha256 "da8557ae81a0798f1c888b25bb1ea960f78ae0b1e21b63fa992776db3f26ff87"
+      url "https://github.com/off-art/radar/releases/download/v0.6.12/radar-aarch64-apple-darwin.tar.gz"
+      sha256 "16d868ac1ad5eaf7ac68b884e0c74292b9c88aadb03ab38f826ad970f9810188"
     end
     on_intel do
-      url "https://github.com/off-art/radar/releases/download/v0.6.11/radar-x86_64-apple-darwin.tar.gz"
-      sha256 "bb55786a89f49b8b977f437e688473a46692d734c23646f2dbe1321bd09f763d"
+      url "https://github.com/off-art/radar/releases/download/v0.6.12/radar-x86_64-apple-darwin.tar.gz"
+      sha256 "d0bcef9825ba8f2af109ae673172a5a388381fb506fcc49ebb62954d49bc05df"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/off-art/radar/releases/download/v0.6.11/radar-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "62f6e4376b1ab450f5fcb6d385b4462bd69910756e8fe4a22b7fdf4f711f377e"
+      url "https://github.com/off-art/radar/releases/download/v0.6.12/radar-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7a18d5268a98ecbfcc83e580f4ba21a0ea8435773d7fdc16adfdf26f3eac123c"
     end
     on_intel do
-      url "https://github.com/off-art/radar/releases/download/v0.6.11/radar-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7abbdd6b073fc15fab63ee4d0c93b08be97fcb94ef2b6c199bd18b4ec5b648f9"
+      url "https://github.com/off-art/radar/releases/download/v0.6.12/radar-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "415860ae7dbbee4c0a7e4db2ff36725c79d468f66655b246304abc18ce9cf018"
     end
   end
 

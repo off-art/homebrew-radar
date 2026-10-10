@@ -1,7 +1,6 @@
 class Radar < Formula
   desc "Терминальный мультиплексор для AI-агентов: список агентов, статусы, уведомления"
   homepage "https://github.com/off-art/radar"
-  version "0.6.8"
   license "MIT"
 
   on_macos do

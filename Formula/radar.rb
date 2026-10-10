@@ -31,7 +31,7 @@ class Radar < Formula
 
   def caveats
     <<~EOS
-      Обновление: brew update && brew upgrade radar
+      Обновление: brew update && brew upgrade off-art/radar/radar
       Проверка агентов: radar doctor
     EOS
   end
